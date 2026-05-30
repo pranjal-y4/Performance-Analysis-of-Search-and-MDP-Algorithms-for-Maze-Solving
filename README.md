@@ -2,6 +2,8 @@
 
 This project is a tool to test and compare different ways to solve a maze. You can use it to see how search algorithms and MDP (Markov Decision Process) solvers perform on different maze sizes and types.
 
+Check out this video: https://youtu.be/uF0oV2QS2Rs
+
 ## Setup and Run
 
 ### 1. Install dependencies
