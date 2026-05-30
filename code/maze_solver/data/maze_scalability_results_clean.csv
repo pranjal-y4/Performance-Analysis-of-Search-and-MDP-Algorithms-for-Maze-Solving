@@ -1,0 +1,37 @@
+Maze Size,Maze Type,Paradigm,Algorithm,Path Length,Expanded States,Peak frontier size (proxy for memory),Solution Quality,Iterations,Discount Factor,Convergence Threshold,Runtime (ms)
+10x10,Braided,Search,A* Manhattan,40,66,6.0,Optimal,,,,0.33
+10x10,Braided,Search,A* Euclidean,40,98,6.0,Optimal,,,,0.56
+50x50,Braided,Search,A* Manhattan,256,4245,97.0,Optimal,,,,12.45
+50x50,Braided,Search,A* Euclidean,256,4870,67.0,Optimal,,,,89.89
+100x100,Braided,Search,A* Manhattan,468,15000,258.0,Optimal,,,,53.7
+100x100,Braided,Search,A* Euclidean,468,18697,164.0,Optimal,,,,55.01
+100x100,Braided,Search,DFS,1888,19630,660,Suboptimal,,,,87.1036
+100x100,Braided,Search,BFS,532,21178,115,Optimal,,,,73.1198
+100x100,Braided,Search,A* (Manhattan),532,21048,360,Optimal,,,,106.2691
+100x100,Braided,Search,A* (Euclidean),532,21138,149,Optimal,,,,107.171
+100x100,Braided,MDP,Value Iteration,532,12358434,,Optimal,583,0.99,1e-06,63652.2934
+100x100,Braided,MDP,Policy Iteration,532,69953400,,Optimal,500,0.99,1e-06,127227.1633
+50x50,Braided,Search,DFS,616,1134,102,Suboptimal,,,,3.5179
+50x50,Braided,Search,BFS,276,5245,55,Optimal,,,,17.3825
+50x50,Braided,Search,A* (Manhattan),276,2907,106,Optimal,,,,13.3988
+50x50,Braided,Search,A* (Euclidean),276,4137,62,Optimal,,,,18.5512
+50x50,Braided,MDP,Value Iteration,276,1520526,,Optimal,287,0.99,1e-06,7754.0007
+50x50,Braided,MDP,Policy Iteration,276,12307254,,Optimal,251,0.99,1e-06,19360.5551
+10x10,Braided,Search,DFS,48,88,11,Suboptimal,,,,0.3674
+10x10,Braided,Search,BFS,44,196,13,Optimal,,,,0.7361
+10x10,Braided,Search,A* (Manhattan),44,107,11,Optimal,,,,0.5595
+10x10,Braided,Search,A* (Euclidean),44,153,13,Optimal,,,,0.718
+10x10,Braided,MDP,Value Iteration,44,10710,,Optimal,51,0.99,1e-06,53.5475
+10x10,Braided,MDP,Policy Iteration,44,328860,,Optimal,45,0.99,1e-06,439.3827
+25x25,Braided,Search,DFS,292,1160,93,Suboptimal,,,,4.3972
+25x25,Braided,Search,BFS,124,1249,32,Optimal,,,,4.5929
+25x25,Braided,Search,A* Manhattan,124,369,33,Optimal,,,,2.255
+25x25,Braided,Search,A* Euclidean,124,626,26,Optimal,,,,3.5727
+25x25,Braided,MDP,Value Iteration,124,205065,,Optimal,155,0.99,1e-06,1131.9821
+25x25,Braided,MDP,Policy Iteration,124,2463426,,Optimal,132,0.99,1e-06,3986.9952
+20x20,Braided,Search,DFS,256,423,45,Suboptimal,,,,1.7758
+20x20,Braided,Search,BFS,84,827,22,Optimal,,,,3.6815
+20x20,Braided,Search,A* Manhattan,84,231,27,Optimal,,,,2.7869
+20x20,Braided,Search,A* Euclidean,84,504,20,Optimal,,,,2.4485
+20x20,Braided,MDP,Value Iteration,84,73602,,Optimal,87,0.99,1e-06,384.8119
+20x20,Braided,MDP,Policy Iteration,84,1433124,,Optimal,79,0.99,1e-06,2259.6895

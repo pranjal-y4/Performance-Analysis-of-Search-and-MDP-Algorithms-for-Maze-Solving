@@ -1,0 +1,25 @@
+Maze Size,Maze Type,Algorithm,Paradigm,Path Length,Expanded States,Peak frontier size (proxy for memory),Iterations,Runtime (ms),Solution Quality,Observation
+10x10,Braided,Policy Iteration,MDP,44,328860,,45.0,439.3827,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 596.91x BFS. Convergence required 45 iterations. Computes global value/policy over state space (not single-path search).
+10x10,Braided,Value Iteration,MDP,44,10710,,51.0,53.5475,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 72.74x BFS. Convergence required 51 iterations. Computes global value/policy over state space (not single-path search).
+10x10,Braided,A* Euclidean,Search,44,153,13.0,,0.718,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 0.98x BFS. Expands 43 fewer states than BFS.
+10x10,Braided,A* Manhattan,Search,44,107,11.0,,0.5595,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 0.76x BFS. Expands 89 fewer states than BFS.
+10x10,Braided,BFS,Search,44,196,13.0,,0.7361,Optimal,Baseline shortest-path solver for this maze size.
+10x10,Braided,DFS,Search,48,88,11.0,,0.3674,Suboptimal,Path is +4 steps longer than BFS (suboptimal). Runtime is 0.50x BFS.
+25x25,Braided,Policy Iteration,MDP,124,2463426,,132.0,3652.2466,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 910.60x BFS. Convergence required 132 iterations. Computes global value/policy over state space (not single-path search).
+25x25,Braided,Value Iteration,MDP,124,205065,,155.0,1026.145,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 255.85x BFS. Convergence required 155 iterations. Computes global value/policy over state space (not single-path search).
+25x25,Braided,A* Euclidean,Search,124,626,26.0,,2.5884,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 0.65x BFS. Expands 623 fewer states than BFS.
+25x25,Braided,A* Manhattan,Search,124,369,33.0,,1.6145,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 0.40x BFS. Expands 880 fewer states than BFS.
+25x25,Braided,BFS,Search,124,1249,32.0,,4.0108,Optimal,Baseline shortest-path solver for this maze size.
+25x25,Braided,DFS,Search,292,1160,93.0,,3.5718,Suboptimal,Path is +168 steps longer than BFS (suboptimal). Runtime is 0.89x BFS.
+50x50,Braided,Policy Iteration,MDP,276,12307254,,251.0,19360.5551,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 1113.80x BFS. Convergence required 251 iterations. Computes global value/policy over state space (not single-path search).
+50x50,Braided,Value Iteration,MDP,276,1520526,,287.0,7754.0007,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 446.08x BFS. Convergence required 287 iterations. Computes global value/policy over state space (not single-path search).
+50x50,Braided,A* Euclidean,Search,276,4137,62.0,,18.5512,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 1.07x BFS. Expands 1108 fewer states than BFS.
+50x50,Braided,A* Manhattan,Search,276,2907,106.0,,13.3988,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 0.77x BFS. Expands 2338 fewer states than BFS.
+50x50,Braided,BFS,Search,276,5245,55.0,,17.3825,Optimal,Baseline shortest-path solver for this maze size.
+50x50,Braided,DFS,Search,616,1134,102.0,,3.5179,Suboptimal,Path is +340 steps longer than BFS (suboptimal). Runtime is 0.20x BFS.
+100x100,Braided,Policy Iteration,MDP,532,69953400,,500.0,127227.1633,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 1739.98x BFS. Convergence required 500 iterations. Computes global value/policy over state space (not single-path search).
+100x100,Braided,Value Iteration,MDP,532,12358434,,583.0,63652.2934,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 870.52x BFS. Convergence required 583 iterations. Computes global value/policy over state space (not single-path search).
+100x100,Braided,A* Euclidean,Search,532,21138,149.0,,107.171,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 1.47x BFS. Expands 40 fewer states than BFS.
+100x100,Braided,A* Manhattan,Search,532,21048,360.0,,106.2691,Optimal,Matches BFS path length (optimal under unit costs). Runtime is 1.45x BFS. Expands 130 fewer states than BFS.
+100x100,Braided,BFS,Search,532,21178,115.0,,73.1198,Optimal,Baseline shortest-path solver for this maze size.
+100x100,Braided,DFS,Search,1888,19630,660.0,,87.1036,Suboptimal,Path is +1356 steps longer than BFS (suboptimal). Runtime is 1.19x BFS.

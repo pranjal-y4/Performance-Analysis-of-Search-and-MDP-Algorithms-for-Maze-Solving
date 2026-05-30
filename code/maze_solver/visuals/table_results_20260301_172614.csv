@@ -1,0 +1,7 @@
+Algorithm,Solved,Path Length,Time (ms),Nodes Expanded,Peak frontier size (proxy for memory),Iterations/Steps
+DFS,True,256,1.7758,423,45,0
+BFS,True,84,3.6815,827,22,0
+A* (Manhattan),True,84,2.7869,231,27,0
+A* (Euclidean),True,84,2.4485,504,20,0
+Value Iteration,True,84,384.8119,73602,0,87
+Policy Iteration,True,84,2259.6895,1433124,0,79
